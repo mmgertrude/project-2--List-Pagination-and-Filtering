@@ -100,9 +100,17 @@ function searchList (inputValue, studentList){
       else 
          {studentList[i].style.display = "none";}   
       }
-      //the case of no results found: Display notification
+
+      //the case when input value does not match any names: Display notification
     if (matchesFound.length === 0){
        unmatched.style.display = "block";}
+
+      /* hitting backspace or the submit button before typing any text should still display the 
+      original list(ie inputValue length = 0; this is treated as a case of "nothing was searched") */
+    if (inputValue.length == 0){
+      unmatched.style.display = "none";
+      showPage(studentList, 1);
+      appendPageLinks(studentList);}
       
    return matchesFound;
    }
