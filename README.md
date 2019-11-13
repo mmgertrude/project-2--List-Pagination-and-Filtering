@@ -14,3 +14,4 @@ access the next list entries.
 * Creating and appending search input field and a button.
 * Adding event listeners to the search field and button.
 * A notification when no matches are found for the search input.
+* The original student list (with the pagination links) still displays even when ones hits the backspace or the submit button before they type any text.
