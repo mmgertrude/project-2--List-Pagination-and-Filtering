@@ -4,11 +4,12 @@
 Reqiuired to use vanilla Javascript to display 10 items per page using links as the navigation system to
 access the next list entries. 
 
-# Skills used:
-    The project warmup was very helpful.
-    use of event listeners and loops
-    DOM traversal.
-    internet searches to read about selecting and manupilationg DOM elements.
+# Skills used
+* The project warmup was very helpful.
+* Use of event listeners and loops.
+* DOM traversal.
+* Internet searches to read about selecting and manupilationg DOM elements.
+* Using the Slack team. Their advice was very useful.
 
 # The extra credit features added
 * Creating and appending search input field and a button.
